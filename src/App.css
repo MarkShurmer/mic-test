@@ -1,0 +1,50 @@
+.app {
+  text-align: center;
+
+  background-image: url('./assets/background.png');
+  background-size: cover;
+}
+
+.app-content {
+  margin: 0 20% 0 20%;
+}
+
+.header {
+  background-color: #fff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vh;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+
+  height: 85vh;
+  display: flex;
+}
+
+.main img {
+  height: 85vh;
+}
+
+.footer {
+  height: 5vh;
+  background-color: black;
+}
