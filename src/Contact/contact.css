@@ -6,3 +6,30 @@
     display: flex;
     flex-direction: column;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-input {
+    margin: 1vh 3vw 1vh 3vw;
+}
+
+.save-button {
+    height: 4rem;
+    font-size: 2rem;
+    margin: 1vh 8vh 1vh 8vh;
+    color: white;
+    background-color: red;
+    border-radius: 1.75rem;
+}
+
+.error {
+    background-color: pink;
+    color: darkred;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1vw;
+}
