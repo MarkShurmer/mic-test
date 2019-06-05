@@ -21,6 +21,7 @@ async function save(contact) {
     await axios.post('http://mic-leads.dev-test.makeiteasy.com/api/v1/create', {
 
     }, config);
+    return '';
 
   } catch(err) {
     console.error(err);

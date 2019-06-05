@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Contact from './Contact/Contact';
 import mktImg from './assets/mktStuff.png';
+import ContactContainer from './Contact/contact-container';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       </header>
 
       <section className="main">
-        <img src={mktImg} />
-        <Contact />
+        <img src={mktImg} alt="[info]" className="main-img"/>
+        <ContactContainer className="main-content" />
       </section>
 
       <footer className="footer"></footer>
